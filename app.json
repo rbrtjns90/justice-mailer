@@ -1,8 +1,8 @@
 {
   "name": "Colossus",
   "description": "Self-hosted email marketing solution.",
-  "repository": "https://github.com/vitorfs/colossus",
-  "keywords": ["python", "django", "email marketing", "mailing lists"],
+  "repository": "https://github.com/rbrtjns90/justice-mailer",
+  "keywords": [ "python", "django", "email marketing", "mailing lists" ],
   "scripts": {
     "postdeploy": "python manage.py migrate"
   },
@@ -14,7 +14,7 @@
   "env": {
     "DEFAULT_FROM_EMAIL": {
       "description": "Default email address to send emails from the application. Please note that you need to do further domain validation via Mailgun App to enable email sending from this installation.",
-      "value": "noreply@example.com"
+      "value": "rbrt.jns90@gmail.com.com"
     },
     "DJANGO_SETTINGS_MODULE": {
       "value": "colossus.heroku_settings"
