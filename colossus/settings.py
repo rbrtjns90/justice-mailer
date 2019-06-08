@@ -248,4 +248,3 @@ COLOSSUS_HTTPS_ONLY = config('COLOSSUS_HTTPS_ONLY', default=False, cast=bool)
 MAILGUN_API_KEY = config('MAILGUN_API_KEY', default='')
 
 MAILGUN_API_BASE_URL = config('MAILGUN_API_BASE_URL', default='')
-© 2019 GitHub, Inc.
