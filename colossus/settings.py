@@ -242,8 +242,10 @@ CELERY_TASK_ALWAYS_EAGER = config('CELERY_TASK_ALWAYS_EAGER', default=True, cast
 # FIRST-PARTY APPS SETTINGS
 # ==============================================================================
 
+
 COLOSSUS_HTTPS_ONLY = config('COLOSSUS_HTTPS_ONLY', default=False, cast=bool)
 
-MAILGUN_API_KEY = config('672eadaed66574446d9bd80fa550f92a-87cdd773-68621396', default='')
+MAILGUN_API_KEY = config('MAILGUN_API_KEY', default='')
 
-MAILGUN_API_BASE_URL = config('	sandbox8a157bd4fee247a9847ab3d12e41dbbe.mailgun.org', default='')
+MAILGUN_API_BASE_URL = config('MAILGUN_API_BASE_URL', default='')
+© 2019 GitHub, Inc.
